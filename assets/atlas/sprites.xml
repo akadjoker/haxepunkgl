@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="graphics/sprites.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="could.png"	x="0"	y="0"	width="86"	height="52" frameX="-0" frameY="-6" frameWidth="86" frameHeight="64"/>
+    <SubTexture name="icon_angry.png"	x="126"	y="74"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_bigsmile.png"	x="126"	y="58"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_blush.png"	x="117"	y="106"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_confused.png"	x="110"	y="16"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_cry.png"	x="110"	y="0"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_eek.png"	x="127"	y="16"	width="15"	height="15" frameX="-1" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_lol.png"	x="109"	y="74"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_neutral.png"	x="34"	y="108"	width="15"	height="15" frameX="-1" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_sad.png"	x="127"	y="0"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_sick.png"	x="126"	y="90"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_smile.png"	x="17"	y="108"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_surprised.png"	x="83"	y="110"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_think.png"	x="109"	y="90"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_tongue.png"	x="109"	y="58"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_twisted.png"	x="100"	y="110"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="icon_wink.png"	x="0"	y="108"	width="16"	height="15" frameX="-0" frameY="-1" frameWidth="16" frameHeight="16"/>
+	<SubTexture name="littlegrass.png"	x="83"	y="86"	width="25"	height="23" frameX="-20" frameY="-41" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="littlegrass1.png"	x="109"	y="33"	width="20"	height="24" frameX="-22" frameY="-40" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="pipegrass.png"	x="0"	y="53"	width="49"	height="54" frameX="-7" frameY="-10" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="redflower.png"	x="87"	y="33"	width="21"	height="38" frameX="-18" frameY="-26" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="yellowflower.png"	x="87"	y="0"	width="22"	height="32" frameX="-22" frameY="-32" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="exit.png"	x="50"	y="53"	width="36"	height="32" frameX="-2" frameY="-0" frameWidth="40" frameHeight="32"/>
+	<SubTexture name="gem.png"	x="50"	y="86"	width="32"	height="28" frameX="-0" frameY="-2" frameWidth="32" frameHeight="32"/>
+	
+</TextureAtlas>

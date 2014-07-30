@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="flashpunk" package="com.flashpunk.glteste" version="1.0.0" company="djoker soft" />
+	
+	<!-- output -->
+	<app main="Main" file="flashpunk" path="bin" />
+	
+<!-- General window settings for all platforms -->
+<window
+background="#f575ee"
+fps="6000"
+allow_shaders="true"
+require_shaders="true"
+depth_buffer="true"
+stencil_buffer="true"
+orientation="landscape"
+vsync="false"
+antialiasing="0"
+/>
+
+<!-- Window settings for everything except for mobile -->
+<window
+width="480"
+height="320"
+fps="1000"
+unless="mobile"
+/>
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	
+	
+	<haxelib name="openfl" />
+	<!-- assets -->
+	<icon path="assets/openfl.svg" />
+	<assets path="assets/graphics" rename="gfx" include="*.png|*.jpg|*.fnt" />
+	<assets path="assets/audio" rename="audio" include="*.mp3" if="flash" />
+	<assets path="assets/audio" rename="audio" include="*.wav|*.ogg" unless="flash" />
+	<assets path="assets/font" rename="font" include="*.ttf|" />
+	<assets path="assets/atlas" rename="atlas" include="*.xml|*.tmx|*.plist|*.pex" />
+
+	<haxedef name="source-map-content" if="html5" />
+	<haxedef name="dom" if="html5" />
+	
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+	
+</project>

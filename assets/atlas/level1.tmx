@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="8" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tiles" tilewidth="64" tileheight="64">
+  <image source="tiles.png" trans="ffffff" width="640" height="128"/>
+ </tileset>
+ <layer name="level" width="40" height="8">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAACAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAASAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAgAAAAIAAAAGAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAIAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <objectgroup name="sprites" width="40" height="8">
+  <object name="badSmile" x="1758" y="300" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="pipegrass" x="1290" y="144" width="49" height="54"/>
+  <object name="redflower" x="31" y="223" width="21" height="38"/>
+  <object name="pipegrass" x="2316" y="269" width="49" height="54"/>
+  <object name="yellowflower" x="1883" y="418" width="22" height="32"/>
+  <object name="exit" x="692" y="226" width="40" height="32"/>
+  <object name="player" x="2432" y="256" width="12" height="14">
+   <ellipse/>
+  </object>
+  <object name="gem" x="1501" y="209" width="16" height="16"/>
+  <object name="redflower" x="146" y="224" width="21" height="38"/>
+  <object name="badSmile" x="2012" y="426" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="1758" y="300" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="1242" y="146" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="1242" y="146" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="1378" y="146" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="1378" y="146" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="1018" y="271" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="1018" y="271" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="492" y="339" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="492" y="339" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="598" y="340" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="598" y="340" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="gem" x="2268" y="273" width="16" height="16"/>
+  <object name="gem" x="2387" y="276" width="16" height="16"/>
+  <object name="gem" x="2473" y="274" width="16" height="16"/>
+  <object name="gem" x="1625" y="273" width="16" height="16"/>
+  <object name="gem" x="2134" y="403" width="16" height="16"/>
+  <object name="gem" x="289" y="277" width="16" height="16"/>
+  <object name="gem" x="355" y="275" width="16" height="16"/>
+  <object name="gem" x="87" y="213" width="16" height="16"/>
+  <object name="badSmile" x="24" y="204" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="24" y="204" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="150" y="173" width="13" height="15">
+   <ellipse/>
+  </object>
+  <object name="badSmile" x="150" y="173" width="13" height="15">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
